@@ -1,7 +1,3 @@
-# ************ High Performance Computing **************
-# Name: Roshan Gautam, Sulav Regmi, Tolunay Guney
-# PyCUDA for Image Grayscale
-# ******************************************************
 import pycuda.driver as cuda
 import pycuda.autoinit
 from pycuda.compiler import SourceModule
