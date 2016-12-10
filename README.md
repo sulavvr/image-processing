@@ -10,7 +10,7 @@
 
 ### Gaussian Blur
 - Gaussian Function:
-: `G(x, y) = (1 / 2 * PI * sigma<sup>2</sup>) * exp<sup>(-(x<sup>2</sup> + y<sup>2</sup>))/ 2 * sigma<sup>2</sup></sup>`
+: `G(x, y) = (1 / 2 * PI * sigma <sup>2</sup>) * exp <sup>(-(x <sup>2</sup> + y <sup>2</sup>))/ 2 * sigma <sup>2</sup></sup>`
 
 ## Notes
 - Implementation using C++11 & CUDA 8.0 (cudacpp[^1])
