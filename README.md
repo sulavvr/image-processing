@@ -1,7 +1,7 @@
 # CUDA Image Processing
 
-- (cudacpp<sup>1</sup>) CUDA C++ Image Processing Project for High Performance Computing
-- (pycuda<sup>2</sup>) PyCUDA Image Processing Project for High Performance Computing
+- CUDA C++ Image Processing Project for High Performance Computing (cudacpp)
+- PyCUDA Image Processing Project for High Performance Computing (pycuda)
 
 ## Image filters implemented
 ### Grayscale
@@ -15,9 +15,10 @@
 > G(x, y) = (1 / 2 * PI * sigma²) * exp <sup>(-(x² + y²))/ 2 * sigma²</sup>
 
 ## Notes
-- Implementation using C++11 & CUDA 8.0 (cudacpp<sup>1</sup>)
-- Implementation using PyCUDA & CUDA 8.0 (pycuda<sup>2</sup>)
-- Windows 10 | Visual Studio 2015 (cudacpp<sup>1</sup>])
+- Different branches for CUDA C++ & PyCUDA Implementations (cudacpp & pycuda)
+- Implementation using C++11 & CUDA 8.0
+- Implementation using PyCUDA & CUDA 8.0
+- Windows 10 | Visual Studio 2015
 - Used Photoshop RAW image (*.raw) for reading the RGB channels
 - Host code implemented for CUDA C++ only
 - Device code implemented for PyCUDA & CUDA C++
@@ -29,7 +30,3 @@
 ## Reference
 - [Gaussian Blur](http://www.pixelstech.net/article/1353768112-Gaussian-Blur-Algorithm)
 - [Grayscale Algorithms](http://www.tannerhelland.com/3643/grayscale-image-algorithm-vb6/)
-
-1: cudacpp branch
-
-2: pycuda branch
